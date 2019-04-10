@@ -25,7 +25,7 @@ var calc = document.querySelectorAll(".operator");
 
 var eq = document.querySelectorAll(".equals")[0];
   eq.addEventListener("click", function () {
-    var result = eval(sum);
+     result = eval(sum);
     disp.innerHTML = result;
   })
 
@@ -33,4 +33,6 @@ var eq = document.querySelectorAll(".equals")[0];
 var clear = document.querySelectorAll(".buttonClear")[0];
   clear.addEventListener("click", function (){
   disp.innerHTML = " ";
+  result == 0;
+
 });
